@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#index{
+    width: 325px;
+    height: 325px;
+    border: 1px solid transparent;
+    background-color: #bcafa1;
+    margin: 30px auto;
+}
+.information{
+    width: 230px;
+    margin: 120px auto 0 auto;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: blue;
+    color: pink;
+    font-size: 25px;
+    border: 0;
+}
+.index-tr{
+    width: 100%;
+    height: 75px;
+    margin-top: 5px;
+}
+
+.index-tr-td{
+    float: left;
+    width: 75px;
+    height: 75px;
+    background-color: #cec2b5;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+/* 
+各个数字的颜色
+*/
+.n2{background-color:#f65e3b;color:#776e65}
+.n4{background-color:#33b5e5;color:#776e65}
+.n8{background-color:#f2b179;color:#776e65}
+.n16{background-color:#f59563;color:#776e65}
+.n32{background-color:#f67c5f;color:#776e65}
+.n64{background-color:#f65e3b;color:#776e65}
+.n128{background-color:#edcf72;color:#776e65}
+.n256{background-color:#edcc61;color:#776e65}
+.n512{background-color:#9c0;color:#776e65}
+.n1024{background-color:#33b5e5;color:#776e65;font-size:40px}
+.n2048{background-color:#09c;color:#776e65;font-size:40px}
